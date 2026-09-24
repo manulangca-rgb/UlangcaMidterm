@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio | Nick Ulangca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home">Nick Young<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#contact" class="nav-link">Contact Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">STUDENT PORTFOLIO</p>
+        <h1>Hello, I'm <span>Nick Ulangca.</span></h1>
+        <p class="hero-text">This projeect is a simple student profile webpaege. It's complete with a navigation bar to different sections, home, about me and contacts.</p>
+      </div>
+      <div class="hero-card">
+        <div class="card-content">
+            <div class = image>
+              <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzA8lvVrdB1U8aMRkTYHUnoqKPeh36PqgpITTeHajU-XfGGCDau1kVYrU&s=10">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div>
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>A curious student with a creative mindset.</h2>
+      </div>
+      <div class="about-copy">
+        <p>I'm Nick, a student interested in web design and technology. I enjoy experimenting with layouts, colors, and interactive ideas while continuously improving my skills.</p>
+        <div class="skill-grid">
+          <div class="skill">HTML <span>01</span></div>
+          <div class="skill">CSS <span>02</span></div>
+          <div class="skill">JavaScript <span>03</span></div>
+          <div class="skill">Creativity <span>04</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="contact-intro">
+        <p class="eyebrow">CONTACT ME</p>
+        <h2>Let's connect.</h2>
+        <p>Have a question, project idea, or simply want to say hello? Send me a message.</p>
+      </div>
+      <form id="contactForm" class="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <button type="submit" class="primary-btn">Submit Message</button>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Nick Ulangca · Student Portfolio</p>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
